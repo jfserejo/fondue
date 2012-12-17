@@ -139,7 +139,7 @@ If needed:
 
 then:
 
-    $ git commit -m "Commit Update 2"
+    $ git commit -m "Commit Update 1"
     $ git push heroku master
 
 ## Step 6 Hack the Compass Files to Our App:
