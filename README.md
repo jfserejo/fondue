@@ -52,13 +52,13 @@ Create the app:
     	scss/
     
     /public/
-    		assets/
-    			fonts/
-    			icons/
-    			images/
-    			javascripts/
-    			stylesheets/
-    		index.html
+    	assets/
+    		fonts/
+    		icons/
+    		images/
+    		javascripts/
+    		stylesheets/
+    	index.html
 
 **4.2 Edit the Gemfile:**
 
