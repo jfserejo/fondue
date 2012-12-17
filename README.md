@@ -19,7 +19,7 @@ If you have previously uploaded a key to Heroku, we assume you will keep using i
 
     $ heroku login
     Enter your Heroku credentials.
-    Email: adam@example.com
+    Email: someuser@example.com
     Password: 
     Could not find an existing public key.
     Would you like to generate one? [Yn] 
@@ -31,8 +31,8 @@ Press enter at the prompt to upload your existing ssh key or create a new one, u
 Create the app:
 
     $ heroku create
-    Creating glowing-snow-27... done
-    Created http://glowing-snow-27.herokuapp.com/ | git@heroku.com:glowing-snow-27.git
+    Creating some-random-funny-name-997... done
+    Created http://some-random-funny-name-997.herokuapp.com/ | git@heroku.com:some-random-funny-name-997.git
     Git remote heroku added
 
 ### Step 4: Deploy the application
@@ -48,21 +48,22 @@ Create the app:
     Gemfile.lock
     config.ru
     /lib/
-      	docs
-    		scss
+      	docs/
+    	scss/
     
     /public/
     		assets/
-    				fonts
-    				icons
-    				images
-    				javascripts
-    				stylesheets
+    			fonts/
+    			icons/
+    			images/
+    			javascripts/
+    			stylesheets/
     		index.html
 
 **4.2 Edit the Gemfile:**
 
     source :rubygems
+    
     gem 'rack'
     gem 'susy'
     gem 'compass'
@@ -127,7 +128,7 @@ Before deploying your site to Heroku you will need to store your code in the Git
 At this point your site is deployed to Heroku and has been given an auto-generated URL. Open your site using the heroku open command:
 
     $ heroku open
-    Opening blazing-galaxy-997... done
+    some-random-funny-name-997 ... done
 
 ### Step 5 Updating:
 
@@ -146,7 +147,7 @@ then:
 
     $ compass create -r susy -u susy dummy
     $ cp dummy/sass/*.scss myapp/lib/scss/
-    $ cp dummy/stylesheets/* myqpp/stylesheets
+    $ cp dummy/stylesheets/* myapp/stylesheets
     $ cp dummy/config.rb myapp/config.rb
     $ rm -rf dummy
 
