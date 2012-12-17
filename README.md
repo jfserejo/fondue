@@ -3,7 +3,7 @@ Fondue
 
 *__This is an hack to set Compass + Susy Grid Framework on Heroku__*
 
-## Step 1: Sign Up
+### Step 1: Sign Up
 
 Sign up for a Heroku account, if you don’t already have one.
 
@@ -11,7 +11,7 @@ Sign up for a Heroku account, if you don’t already have one.
 
 Grab & Install the Heroku [Toolbelt](https://toolbelt.heroku.com). (...) "The toolbelt contains the Heroku client, a command-line tool for creating and managing Heroku apps; Foreman, an easy option for running your apps locally; and Git, the revision control system needed for pushing applications to Heroku."
 
-## Step 3: Login & Create an App
+### Step 3: Login & Create an App
 
 After installing the Toolbelt, you’ll have access to the heroku command from your command shell. Authenticate using the email address and password you used when creating your Heroku account:
 
@@ -35,7 +35,7 @@ Create the app:
     Created http://glowing-snow-27.herokuapp.com/ | git@heroku.com:glowing-snow-27.git
     Git remote heroku added
 
-## Step 4: Deploy the application
+### Step 4: Deploy the application
 
 **4.1 Creating site tree:**
 
@@ -129,7 +129,7 @@ At this point your site is deployed to Heroku and has been given an auto-generat
     $ heroku open
     Opening blazing-galaxy-997... done
 
-## Step 5 Updating:
+### Step 5 Updating:
 
 When making changes to your site, edit the necessary files locally, commit them to Git, and push to Heroku to see the changes deployed.
 
@@ -142,7 +142,7 @@ then:
     $ git commit -m "Commit Update 1"
     $ git push heroku master
 
-## Step 6 Hack the Compass Files to Our App:
+### Step 6 Hack the Compass Files to Our App:
 
     $ compass create -r susy -u susy dummy
     $ cp dummy/sass/*.scss myapp/lib/scss/
