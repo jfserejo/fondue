@@ -101,8 +101,7 @@ To run your site locally and view any modifications before deploying to Heroku r
     >> Maximum connections set to 1024
     >> Listening on 0.0.0.0:9292, CTRL+C to stop
 
-Go to your browser and open http://localhost:9292 to see your static site loaded. As you make changes to the site you only need to reload your browser to view the changes – you don’t have to bounce the server.
-Deploy to Heroku
+Go to your browser and open [http://localhost:9292](http://localhost:9292) to see your static site loaded. As you make changes to the site you only need to reload your browser to view the changes – you don’t have to bounce the server.
 
 **4.6 Store on git:**
 
@@ -134,7 +133,13 @@ At this point your site is deployed to Heroku and has been given an auto-generat
 
 When making changes to your site, edit the necessary files locally, commit them to Git, and push to Heroku to see the changes deployed.
 
-    $ git commit -m "Commit Update 1"
+If needed:
+
+    $ git add * (or point the files to add)
+
+then:
+
+    $ git commit -m "Commit Update 2"
     $ git push heroku master
 
 ## Step 6 Hack the Compass Files to Our App:
@@ -170,7 +175,7 @@ When making changes to your site, edit the necessary files locally, commit them 
     # and then run:
     # sass-convert -R --from scss --to sass sass scss && rm -rf sass && mv scss sass
 
-** 6.2 Now compass can watch changes:**
+**6.2 Now compass can watch changes:**
 
     $ compass watch myapp 
     
@@ -187,9 +192,15 @@ When making changes to your site, edit the necessary files locally, commit them 
     overwrite myapp/public/assets/stylesheets/screen.css 
     ^C
 
-## 6.3 Update the changes to your site ...
+**6.3 Update the changes to your site ...**
 
-*(See Step 5)*
+*(Same as Step 5)*
+
+If needed:
+
+    $ git add * (or point the files to add)
+
+then:
 
     $ git commit -m "Commit Update 2"
     $ git push heroku master
