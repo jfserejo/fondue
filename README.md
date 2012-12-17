@@ -7,7 +7,7 @@ Fondue
 
 Sign up for a Heroku account, if you don’t already have one.
 
-## Step 2: Heroku Toolbelt
+### Step 2: Heroku Toolbelt
 
 Grab & Install the Heroku [Toolbelt](https://toolbelt.heroku.com). (...) "The toolbelt contains the Heroku client, a command-line tool for creating and managing Heroku apps; Foreman, an easy option for running your apps locally; and Git, the revision control system needed for pushing applications to Heroku."
 
