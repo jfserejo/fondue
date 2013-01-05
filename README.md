@@ -41,12 +41,13 @@ Create the app:
 
     $ mkdir -p myapp/{public/assets/{icons,fonts,stylesheets,javascripts,images},lib/{docs,scss}}
     
-    $ touch myapp/{config.ru,Gemfile,Gemfile.lock,public/index.html}
+    $ touch myapp/{config.ru,config.rb,Gemfile,Gemfile.lock,public/index.html}
     
     /
     Gemfile
     Gemfile.lock
     config.ru
+    config.rb
     /lib/
       	docs/
     	scss/
