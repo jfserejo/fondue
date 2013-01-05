@@ -203,4 +203,4 @@ then:
 
 ...
 
-# [See: Heroku Deploying with Git](https://devcenter.heroku.com/articles/git)
+### [See: Heroku Deploying with Git](https://devcenter.heroku.com/articles/git)
