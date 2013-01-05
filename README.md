@@ -143,13 +143,8 @@ then:
     $ git commit -m "Commit Update 1"
     $ git push heroku master
 
-### Step 6 Hack the Compass Files to Our App:
+### Step 6 Compass:
 
-    $ compass create -r susy -u susy dummy
-    $ cp dummy/sass/*.scss myapp/lib/scss/
-    $ cp dummy/stylesheets/* myapp/stylesheets
-    $ cp dummy/config.rb myapp/config.rb
-    $ rm -rf dummy
 
 **6.1 Edit the config.rb file:**
 
@@ -207,3 +202,5 @@ then:
     $ git push heroku master
 
 ...
+
+# [See: Heroku Deploying with Git](https://devcenter.heroku.com/articles/git)
